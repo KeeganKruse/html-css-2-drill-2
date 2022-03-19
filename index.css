@@ -1,0 +1,67 @@
+#frame {
+    border-color: black;
+    height: 100px;
+    width: 550px;
+    border: solid 500px;
+    border-width: medium;
+    margin: auto;
+}
+#rectangle {
+    background-color: blueviolet;
+    height: 70px;
+    width: 25px;
+    position: relative;
+    left: 2px;
+    top: 27px;
+}
+#square {
+    background-color: green;
+    height: 95px;
+    width: 275px;
+    position: fixed;
+    left: 445px;   
+    top: 13px; 
+}
+#circle {
+    background-color: aqua;
+    height: 90px;
+    width: 90px;
+    border-radius: 90px;
+    position: fixed;
+    left: 750px;
+}
+#dottedBorder {
+    border-color: black;
+    height: 100px;
+    width: 550px;
+    border: dotted 500px;
+    border-width: medium;
+    position: fixed;
+    top: 125px;
+    left: 363px;
+}
+#yellowRectangle {
+background-color: yellow;
+height: 95px;
+width: 530px;
+position: fixed;
+left: 375px;
+top: 129px;
+box-shadow: 3px 3px;
+}
+#grooveBorder {
+    border-color: black;
+    height: 100px;
+    width: 250px;
+    border: groove 500px;
+    border-width: medium;
+    position: fixed;
+    top: 245px;
+    left: 530px;
+    text-align: center;
+    vertical-align: baseline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
